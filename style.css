@@ -1,0 +1,493 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(240, 234, 226);
+    margin: 0;
+    padding: 0;
+}
+.title{
+
+    font-weight: bold;
+    position: absolute;
+    left: 620px;
+}
+.main-section{
+    width: 1200px;
+    height: 450px;
+    border: 2px solid rgb(177, 172, 172);
+    border-radius: 6px;
+    background-color: aliceblue;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    
+    position: relative;
+    top: 140px;
+    left: 160px;
+}
+.main-section div{
+    scroll-snap-align: start;
+}
+.to{
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+}
+.btn-t-1{
+    border: 0;
+    background-color: grey;
+    border-radius: 16px;
+    color: #fff;
+}
+.btn-t-2{
+    border: 0;
+    background-color: grey;
+    border-radius: 16px;
+    color: #fff;
+}
+.btn-t-3{
+    border: 0;
+    background-color: grey;
+    border-radius: 16px;
+    color: #fff;
+}
+.one-input-section{
+    width: 1000px;
+    height: 70px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+    border: 2px solid rgb(177, 172, 172) ;
+    border-radius: 26px;
+    background-color: #fff ;
+    position: absolute;
+    top: 60px;
+    left: 90px;
+}
+.one-input{
+    width: 900px ;
+    height: 50px;
+    background-color:#fff ;
+    border: 3px solid rgb(97, 97, 97);
+    border-radius: 26px;
+    font-weight: 100;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    font-size: 16px;
+    border-style:dashed;
+    position: absolute;
+    top: 7px;
+    left: 20px;
+}
+.subject{
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 140px;
+    left: 10px;
+
+}
+.two-input-section{
+    width: 1000px;
+    height: 70px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+
+    border: 2px solid rgb(177, 172, 172) ;
+    border-radius: 26px;
+    background-color: #fff ;
+    position: absolute;
+    top: 200px;
+    left: 90px;
+
+}
+.two-input{
+    width: 900px ;
+    height: 50px;
+    background-color:#fff ;
+    border: 3px solid rgb(97, 97, 97);
+    border-radius: 26px;
+    border-style: dashed;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 100;
+    position: absolute;
+    top: 7px;
+    left: 20px
+
+}
+.text-body{
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 280px;
+    left: 10px;
+
+}
+.body-section{
+    width: 1000px;
+    height: 900px;
+    background-color: #fff;
+    border: 2px solid rgb(177, 172, 172);
+    border-radius: 6px;
+    position: absolute;
+    top: 340px;
+    left: 90px;
+}
+.first-tiles{
+    width: 600px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid rgb(177, 172, 172);
+    border-radius: 6px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.second-tiles{
+    width: 940px;
+    height:110px;
+    background-color: #fff;
+    border: 2px solid rgb(177, 172, 172);
+    border-radius: 6px;
+    position: absolute;
+    top: 120px;
+    left: 10px;
+
+}
+.newTiles{
+    position: relative;
+    top: 0;
+}
+.body-input{
+    width: 900px;
+    height:100px;
+    background-color: #fff;
+    border: 2px solid rgb(177, 172, 172);
+    border-radius: 6px;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    scroll-snap-align: start;
+    resize: none;
+    transition: .2s ease-in-out;
+    text-align:unset;
+    cursor: pointer;
+   
+    color: rgb(177, 172, 172);
+    font-size: 16px;
+    position: relative;
+    top: 50px;
+    left: 10px
+    
+}
+.body-form{
+    width: 940px;
+    height:260px;
+    background-color: #fff;
+    justify-content: center;
+    border: 2px solid rgb(177, 172, 172);
+    border-radius: 6px;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    scroll-snap-align: start;
+    resize: none;
+    transition: .2s ease-in-out;
+    text-align:unset;
+    cursor: pointer;
+    border-style: dashed;
+    color: rgb(177, 172, 172);
+    font-size: 16px;
+    position: relative;
+    top: 250px;
+    left: 10px;
+
+}
+.new-one-t-element{
+    width: 900px;
+    height: 30px;
+    border-bottom: 2px solid rgb(177, 172, 172);
+    list-style-type: none;
+    margin: 10px;
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+.body-ul{
+    position: relative;
+    right: 30px;
+}
+.none{
+    display: none;
+}
+.body-tiles{
+    width: 940px;
+    height:200px;
+    background-color: #fff;
+    border: 2px solid rgb(177, 172, 172);
+    border-radius: 6px;
+    position: absolute;
+    top: 540px;
+    left: 10px;
+
+}
+.end-section{
+    width: 900px;
+    height: 70px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+
+    border: 2px solid rgb(177, 172, 172) ;
+    border-radius: 26px;
+    background-color: #fff ;
+    position: absolute;
+    top: 780px;
+    left: 50px;
+
+}
+.end-input{
+    width: 800px ;
+    height: 50px;
+    background-color:#fff ;
+    border: 3px solid rgb(97, 97, 97);
+    border-radius: 26px;
+    font-weight: 100;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    font-size: 16px;
+    border-style:dashed;
+    position: absolute;
+    top: 7px;
+    left: 20px;
+
+}
+
+.btn-reset{
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+    color: #fff;
+    transition: .2s ease-in-out;
+    text-align: center;
+    border: 0;;
+    border-radius: 14px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+.btn-send{
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+    color: #fff;
+    transition: .2s ease-in-out;
+    text-align: center;
+    border: 0;;
+    border-radius: 14px;
+    position: absolute;
+    top: 5px;
+    left: 190px;
+
+}
+
+
+.button-section{
+   
+    position: absolute;
+    left: 600px;
+    top: 620px;
+}
+.body-input:hover{
+    border: 3px solid grey;
+    border-style:groove;
+    transition: .2s ease-in-out;
+    
+}
+.btn-reset:hover{
+    transition: .2s ease-in-out;
+    background-color: rgb(207, 137, 6);
+}
+
+.one-input:hover{
+    border: 3px solid grey;
+    border-style:groove;
+    transition: .2s ease-in-out;
+}
+.two-input:hover{
+    border: 3px solid grey;
+    border-style:groove;
+    transition: .2s ease-in-out;
+
+}
+.end-input:hover{
+    border: 3px solid grey;
+    border-style:groove;
+    transition: .2s ease-in-out;
+
+}
+.tile-1{
+    width: 100px;
+    height: 40px;
+    border: 0;
+    border-radius: 16px;
+    background: lightgreen;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.tile-2{
+    width: 200px;
+   height: 40px;
+   border: 0;
+   border-radius: 16px;
+   background: lightblue;
+   margin-top: 5px;
+   margin-left: 5px;
+   
+}
+.tile-3{
+    width: 250px;
+ height: 40px;
+ border: 0;
+ border-radius: 16px;
+ background: lightpink;
+ margin-top: 10px;
+ margin-left: 10px;
+ 
+}
+.tile-4{
+    width: 100px;
+height: 40px;
+border: 0;
+border-radius: 16px;
+background: yellow;
+margin-top: 5px;
+margin-left: 5px;
+
+
+}
+.first-tiles input:hover{
+    background-color:rgb(177, 172, 172);
+    transition: .2s ease-in-out;
+}
+.body-tiles-1{
+    width: 200px;
+    height: 40px;
+    border: 0;
+    border-radius: 16px;
+    background: yellow;
+    margin-top: 7px;
+    margin-left: 5px;
+    
+        
+}
+.body-tiles-2{
+    width: 200px;
+  height: 40px;
+  border: 0;
+  border-radius: 16px;
+  background: red;
+  margin-top: 7px;
+  margin-left: 5px;
+  
+}
+.body-tiles-3{
+    width: 200px;
+  height: 40px;
+  border: 0;
+  border-radius: 16px;
+  background: green;
+  margin-top: 7px;
+  margin-left: 5px;
+}
+.body-tiles-4{
+    width: 200px;
+  height: 40px;
+  border: 0;
+  border-radius: 16px;
+  background: blue;
+  margin-top: 7px;
+  margin-left: 5px;
+}
+.body-tiles-5{
+    width: 200px;
+  height: 40px;
+  border: 0;
+  border-radius: 16px;
+  background: violet;
+  margin-top: 7px;
+  margin-left: 5px;
+}
+.body-tiles-6{
+    width: 200px;
+  height: 40px;
+  border: 0;
+  border-radius: 16px;
+  background: orange;
+  margin-top: 25px;
+  margin-left: 5px;
+}
+
+.body-tiles input:hover{
+    transition: .2s ease-in-out;
+    background: rgb(177, 172, 172);
+}
+.two-tile-1{
+    width: 200px;
+height: 40px;
+border: 0;
+border-radius: 16px;
+background: yellow;
+margin-top: 5px;
+margin-left: 5px;
+}
+.two-tile-2{
+    
+    width: 200px;
+height: 40px;
+border: 0;
+border-radius: 16px;
+background: lightseagreen;
+margin-top: 5px;
+margin-left: 5px;
+}
+.two-tile-3{
+        width: 200px;
+height: 40px;
+border: 0;
+border-radius: 16px;
+background: brown;
+margin-top: 5px;
+margin-left: 5px;
+}
+.two-tile-4{
+        width: 200px;
+height: 40px;
+border: 0;
+border-radius: 16px;
+background: gold;
+margin-top: 5px;
+margin-left: 5px;
+}
+.two-tile-5{
+        width: 200px;
+height: 40px;
+border: 0;
+border-radius: 16px;
+background: violet;
+margin-top: 10px;
+margin-left: 5px;
+}
+
+.second-tiles input:hover{
+    transition: .2s ease-in-out;
+    background-color: rgb(177, 172, 172);
+}
+
+
+@media only screen and(min-width: 360px){
+    .title{
+        position: absolute;
+        left: 20px;;
+    }
+}
+    

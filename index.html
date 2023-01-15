@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet"  href="style.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+        <title>Polite emial bulder</title>
+    </head>
+    <body>
+        <h1 class="title">Polite email bulider</h1>
+        <div class="main-section">
+            <p class="to">to:</p>
+            <div class="one-input-section">
+                <input type="text" class="one-input" placeholder="example@mail.com" />
+            </div>
+        <p class="subject">Subject:</p>
+        <div class="two-input-section">
+            <input value="" type="text" class="two-input" placeholder="Example message subject" />
+
+        </div>
+        <p class="text-body">Body:</p>
+        <div class="body-section">
+            <div class="first-tiles">
+
+                <input id="one"  type="button" class="tile-1" value="Dear Mr" />
+                <input id="two" type="button" class="tile-1"   value="Dear Madam" />
+                <input id="three" type="button" class="tile-1"   value="Good Morning" />
+                <input id="four" type="button" class="tile-1"   value="Greetings" />
+                
+               
+
+            </div>
+            <div class="second-tiles">
+                <input id="t-one" type="button" value="I regret inform you that" class="tile-2" />
+                <input id="t-two" type="button" value="I am writing to thank you fo" class="tile-2" />
+                <input id="t-three" type="button" value="I am writing to let you know" class="tile-2" />
+                <input id="t-four" type="button" value="I am writing to response to" class="tile-2" />
+                <input id="t-five" type="button" value="I am writing in reply to" class="tile-2" />
+                
+            </div>
+
+            <!--<input type="text" class="body-input" placeholder="Your message body goes here" />-->
+
+            <div class="body-tiles">
+                <input type="button" class="tile-3" id="t-b-one" value="For futher information, please do not heditate to contact me"/>
+                <input type="button" class="tile-3" id="t-b-two" value="I hope to greet you again soon"/>
+                <input type="button" class="tile-3" id="t-b-three" value="I look forward to hearning from you soon"/>
+                <input type="button" class="tile-3" id="t-b-four" value="Thanks for you attention"/>
+                <input type="button" class="tile-3" id="t-b-five" value="Thank you in advance"/>
+                
+              
+            </div>
+
+            <form class="body-form">
+              
+                <ul class="body-ul">
+
+                </ul>
+                <textarea id="b-in" placeholder="Your massege" class="body-input"></textarea> 
+                
+                
+            </form>
+
+            <div class="end-section">
+                <input value="" type="text" placeholder="Your name" class="end-input" />
+            </div>
+            
+
+            
+
+        </div>
+        
+        </div>
+
+        <div class="button-section">
+            <button class="btn-reset">Reset all</button>
+            <a href="https://www.microsoft.com/pl-pl/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook"><button class="btn-send">Send</button></a>
+            
+        </div>
+
+        <script defer="" src="app.js"></script>
+    </body>
+</html>
