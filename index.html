@@ -4,14 +4,18 @@
         <meta charset="UTF-8" />
         <link rel="stylesheet"  href="style.css" type="text/css" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+        
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>Polite emial bulder</title>
     </head>
     <body>
+       <div class="flex-container">
         <h1 class="title">Polite email bulider</h1>
         <div class="main-section">
             <p class="to">to:</p>
             <div class="one-input-section">
-                <input type="text" class="one-input" placeholder="example@mail.com" />
+                <input type="email" class="one-input" placeholder="example@mail.com" />
             </div>
         <p class="subject">Subject:</p>
         <div class="two-input-section">
@@ -22,40 +26,42 @@
         <div class="body-section">
             <div class="first-tiles">
 
-                <input id="one"  type="button" class="tile-1" value="Dear Mr" />
-                <input id="two" type="button" class="tile-1"   value="Dear Madam" />
-                <input id="three" type="button" class="tile-1"   value="Good Morning" />
-                <input id="four" type="button" class="tile-1"   value="Greetings" />
+                <button    class="tile-1" >Dear Mr</button>
+                <button   class="tile-1"    >Dear Madam</button>
+                <button   class="tile-1"    >Good Morning</button>
+                <button   class="tile-1"    >Greetings</button>
                 
                
 
             </div>
             <div class="second-tiles">
-                <input id="t-one" type="button" value="I regret inform you that" class="tile-2" />
-                <input id="t-two" type="button" value="I am writing to thank you fo" class="tile-2" />
-                <input id="t-three" type="button" value="I am writing to let you know" class="tile-2" />
-                <input id="t-four" type="button" value="I am writing to response to" class="tile-2" />
-                <input id="t-five" type="button" value="I am writing in reply to" class="tile-2" />
+                <button    class="tile-2" >I regret inform you that</button>
+                <button   class="tile-2" >I am writing to thank you fo</button>
+                <button   class="tile-2" >I am writing to let you know</button>
+                <button    class="tile-2" >I am writing to response to</button>
+                <button    class="tile-2" >I am writing in reply to</button>
                 
             </div>
 
             <!--<input type="text" class="body-input" placeholder="Your message body goes here" />-->
 
             <div class="body-tiles">
-                <input type="button" class="tile-3" id="t-b-one" value="For futher information, please do not heditate to contact me"/>
-                <input type="button" class="tile-3" id="t-b-two" value="I hope to greet you again soon"/>
-                <input type="button" class="tile-3" id="t-b-three" value="I look forward to hearning from you soon"/>
-                <input type="button" class="tile-3" id="t-b-four" value="Thanks for you attention"/>
-                <input type="button" class="tile-3" id="t-b-five" value="Thank you in advance"/>
+                <button class="tile-3"  >For futher information, please do not heditate to contact me</button>
+                <button class="tile-3"  >I hope to greet you again soon</button>
+                <button class="tile-3"  >I look forward to hearning from you soon</button>
+                <button class="tile-3"  >Thanks for you attention</button>
+                <button  class="tile-3"  >Thank you in advance</button>
                 
               
             </div>
 
             <form class="body-form">
               
-                <ul class="body-ul">
-
-                </ul>
+                <div class="text-box">
+                    <p id="text-one" class="text-form"></p>
+                    <p id="text-two" class="text-form"></p>
+                    <p id="text-three" class="text-form"></p>
+                </div>
                 <textarea id="b-in" placeholder="Your massege" class="body-input"></textarea> 
                 
                 
@@ -77,6 +83,7 @@
             <a href="https://www.microsoft.com/pl-pl/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook"><button class="btn-send">Send</button></a>
             
         </div>
+       </div>
 
         <script defer="" src="app.js"></script>
     </body>
